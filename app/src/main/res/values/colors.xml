@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">@color/azulzinho</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="azulzinho">#2e71dd</color>
+    <color name="azulzao">#002eff</color>
+    <color name="branco">#FFF</color>
+    <color name="lilas">#5705aa</color>
+    <color name="cinza">#7a7a7a</color>
+    <color name="vermelho">#ad1d1f</color>
+</resources>

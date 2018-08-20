@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="@color/azulzinho"
+        android:gravity="center"
+        >
+
+
+
+     <!-- Colocando texto pelo XML
+          Para tamanho de LETRA usar o sp
+      -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quiz SENAI"
+        android:textSize="38sp"
+        android:textStyle="bold"
+        android:textColor="@color/branco"
+        />
+
+        <!-- Colocando imagem no android -->
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imgQuiz"
+            android:src="@drawable/quiz"
+            android:layout_marginTop="30dp"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="O jogo mais divertido do mundo!"
+            android:textColor="@color/branco"
+            android:textSize="22dp"
+            android:layout_marginTop="30dp"
+            />
+        <!-- Usar DP para tamanho de tudo, tirando LETRA -->
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Iniciar"
+            android:textSize="16sp"
+            android:background="@color/lilas"
+            android:textColor="@color/branco"
+            android:layout_marginTop="30dp"
+            android:onClick="iniciarJogo"
+            />
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
